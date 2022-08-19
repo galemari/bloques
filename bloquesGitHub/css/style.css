@@ -1,0 +1,81 @@
+body{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+}
+h1{
+    text-align: center;
+    color:darkslategray;
+}
+h6{
+    text-align: center;
+    text-decoration: none;
+    color:#3953e3;
+}
+a{
+    color: #3953e3;
+    text-decoration: none;
+}
+.background_color{
+    background-image: radial-gradient(#ffffff 9px, transparent 9px), radial-gradient(#ffffff 9px, transparent 9px);
+    background-size: 20px 20px;
+    background-position: 0 0, 10px 10px;
+    background-color: #ffd30d;
+}
+div{
+    border: 1px solid black;
+    padding: 10px;
+    margin:5px;
+}
+.container1 {
+    width: 1200px;
+    height: 200px;
+    display: flex;
+    align-items: center; /*center, flex-start, flex-end y stretch*/
+    /*center, flex-start, flex-end, space-between, space-around, space-evenly*/
+    flex-direction: row; /*row, column, row-reverse, column-reverse*/
+    justify-content: space-around;
+    background-image:  linear-gradient(30deg, #3953e3 12%, transparent 12.5%, transparent 87%, #3953e3 87.5%, #3953e3), linear-gradient(150deg, #3953e3 12%, transparent 12.5%, transparent 87%, #3953e3 87.5%, #3953e3), linear-gradient(30deg, #3953e3 12%, transparent 12.5%, transparent 87%, #3953e3 87.5%, #3953e3), linear-gradient(150deg, #3953e3 12%, transparent 12.5%, transparent 87%, #3953e3 87.5%, #3953e3), linear-gradient(60deg, rgba(57,83,227,0.5) 25%, transparent 25.5%, transparent 75%, rgba(57,83,227,0.5) 75%, rgba(57,83,227,0.5)), linear-gradient(60deg, rgba(57,83,227,0.5) 25%, transparent 25.5%, transparent 75%, rgba(57,83,227,0.5) 75%, rgba(57,83,227,0.5));
+    background-size: 22px 38.5px;
+    background-position: 0 0, 0 0, 11px 19.25px, 11px 19.25px, 0 0, 11px 19.25px;
+    background-color: #47e7ff;
+}
+
+img {
+    height: 200px;
+}
+
+.container2{
+    width: 1200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    background-image:  linear-gradient(30deg, #c839e3 12%, transparent 12.5%, transparent 87%, #c839e3 87.5%, #c839e3), linear-gradient(150deg, #c839e3 12%, transparent 12.5%, transparent 87%, #c839e3 87.5%, #c839e3), linear-gradient(30deg, #c839e3 12%, transparent 12.5%, transparent 87%, #c839e3 87.5%, #c839e3), linear-gradient(150deg, #c839e3 12%, transparent 12.5%, transparent 87%, #c839e3 87.5%, #c839e3), linear-gradient(60deg, rgba(200,57,227,0.5) 25%, transparent 25.5%, transparent 75%, rgba(200,57,227,0.5) 75%, rgba(200,57,227,0.5)), linear-gradient(60deg, rgba(200,57,227,0.5) 25%, transparent 25.5%, transparent 75%, rgba(200,57,227,0.5) 75%, rgba(200,57,227,0.5));
+    background-size: 22px 38.5px;
+    background-position: 0 0, 0 0, 11px 19.25px, 11px 19.25px, 0 0, 11px 19.25px;
+    background-color: #f6b8e5;
+}
+
+img{
+    height: 200px;
+}
+
+.container3{
+    width: 1200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    background-image:  linear-gradient(30deg, #ffffff 12%, transparent 12.5%, transparent 87%, #ffffff 87.5%, #ffffff), linear-gradient(150deg, #ffffff 12%, transparent 12.5%, transparent 87%, #ffffff 87.5%, #ffffff), linear-gradient(30deg, #ffffff 12%, transparent 12.5%, transparent 87%, #ffffff 87.5%, #ffffff), linear-gradient(150deg, #ffffff 12%, transparent 12.5%, transparent 87%, #ffffff 87.5%, #ffffff), linear-gradient(60deg, rgba(255,255,255,0.5) 25%, transparent 25.5%, transparent 75%, rgba(255,255,255,0.5) 75%, rgba(255,255,255,0.5)), linear-gradient(60deg, rgba(255,255,255,0.5) 25%, transparent 25.5%, transparent 75%, rgba(255,255,255,0.5) 75%, rgba(255,255,255,0.5));
+    background-size: 22px 38.5px;
+    background-position: 0 0, 0 0, 11px 19.25px, 11px 19.25px, 0 0, 11px 19.25px;
+    background-color: #000000;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+}
